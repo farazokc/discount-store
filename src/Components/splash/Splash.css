@@ -1,0 +1,20 @@
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {}
+
+.button {}
+
+.getStarted {
+    color: white;
+    background-color: #61B846;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 1px 0px #CCD1D0;
+    padding: 10px 20px;
+}

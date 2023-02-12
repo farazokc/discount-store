@@ -1,0 +1,10 @@
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login p {
+    color: #024F9D;
+    font-weight: bold;
+}

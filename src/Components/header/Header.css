@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text h1 {
+    color: #61B846;
+}
+
+.header__text h3 {
+    color: #417BB6;
+}
+
+/* h1 color: #61B846 */
+/* h3 color: #417BB6 */

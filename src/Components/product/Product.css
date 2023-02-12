@@ -1,0 +1,31 @@
+.product {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid #61B846;
+}
+
+.product img {
+    border: 1px solid black;
+}
+
+.product .item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: flex-start; */
+    /* padding-left: 5px; */
+    width: 50%;
+}
+
+.product p {
+    display: block;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}

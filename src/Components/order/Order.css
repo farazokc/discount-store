@@ -1,0 +1,20 @@
+.userHeader {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.header__text .green {
+    color: #61B846;
+}
+
+.header__text .blue {
+    color: #417BB6;
+}
+
+.bin_icon {
+    position: fixed;
+    top: 3vh;
+    right: 3vh;
+}

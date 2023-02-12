@@ -1,0 +1,37 @@
+.adminHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    height: 15vh;
+}
+
+.adminInfo img {
+    border-radius: 1000px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline;
+}
+
+.order {
+    position: fixed;
+    right: ;
+    top: 7vh;
+    outline: 2px solid blue;
+    font-size: 10px;
+}
+
+.adminName {
+    padding-left: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,81 @@
+div {
+    outline: 1px solid red;
+}
+
+.userHeader {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.header__text .green {
+    color: #61B846;
+}
+
+.header__text .blue {
+    color: #417BB6;
+}
+
+.shopping_icon {
+    position: fixed;
+    top: 3vh;
+    right: 3vh;
+}
+
+.cart_image {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.search {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search>* {
+    width: 500px;
+    border-radius: 50px;
+    background-color: lightgrey;
+}
+
+.categories {
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Grocery,
+.Vegetables,
+.Fruit,
+.Masala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 13vw;
+}
+
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+.img-container {
+    padding-top: 10px;
+    padding-left: 10px
+}
+
+img {
+    width: 130px;
+    border-radius: 10%;
+    outline: 1px solid green;
+}
+
+/* h1 color: #61B846 */
+/* h3 color: #417BB6 */
