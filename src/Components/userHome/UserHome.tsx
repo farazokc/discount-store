@@ -14,8 +14,23 @@ import './UserHome.css';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControl from '@mui/material/FormControl';
 import SearchIcon from '@mui/icons-material/Search';
+import { useContext } from 'react';
+import AuthContext from '../../contexts/AuthContext';
+import { auth } from '../../firebase';
+import Logout from '../logout/Logout';
+import { collection, getDocs, query } from 'firebase/firestore';
+import { db } from '../../firebase';
 
-function UserHome(){
+async function UserHome(){
+    const loggedIn = useContext(AuthContext);
+    
+    const productRef  = collection(db, "/products");
+    const q = query(productRef);
+    const querySnapshot = await getDocs(q);
+    querySnapshot.forEach((doc) => {
+        console.log(doc.id, " => ", doc.data());
+    })
+
     return(
         <div className="UserHome">
             <div className="userHeader">
@@ -69,6 +84,7 @@ function UserHome(){
                     Masala
                 </div>
             </div>
+            <Logout />
             <Footer/>
         </div>
     )

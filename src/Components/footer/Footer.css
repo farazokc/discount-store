@@ -1,10 +1,11 @@
 .footer {
-    display: flex;
+    /* /* display: flex; */
     justify-content: space-evenly;
     display: flex;
     position: fixed;
     flex: 0.1;
-    bottom: 0;
-    height: 5vh;
+    bottom: 1vh;
+    height: 7vh;
     width: 100%;
+    border-top: 1px solid green;
 }

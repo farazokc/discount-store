@@ -1,6 +1,8 @@
 import './Product.css';
 import image from './../../admin.png';
 import FC from 'react';
+import { collection, query } from 'firebase/firestore';
+import { db } from '../../firebase';
 
 interface ProductProps{
     name: string;

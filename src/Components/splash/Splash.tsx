@@ -1,6 +1,7 @@
 import Header from "../header/Header";
 import "./Splash.css";
 import image from "./../../logo.png";
+import { Link } from "react-router-dom";
 
 function Splash() {
     return(
@@ -13,7 +14,9 @@ function Splash() {
                 <Header />
             </div>
             <div className="button">
-                <button className="getStarted">Get Started</button>
+                <Link to="/login">
+                    <button className="getStarted">Get Started</button>
+                </Link>
             </div>
             {/* button at bottom: get started */}
         </div>

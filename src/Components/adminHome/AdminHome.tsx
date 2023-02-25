@@ -3,6 +3,8 @@ import image from './../../admin.png';
 import Product from './../product/Product';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import Footer from '../footer/Footer';
+import { useContext } from 'react';
+import AuthContext from '../../contexts/AuthContext';
 
 function AdminHome(){
     return(
